@@ -2,7 +2,7 @@
 // @name           Rss
 // @description    Rss
 // @include        http://feedreader.com/*
-// @version        1.0
+// @version        1.01
 // ==/UserScript==
 
 
