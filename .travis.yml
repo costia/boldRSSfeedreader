@@ -3,6 +3,9 @@ node_js:
   - "0.11"
 notifications:
   email: false
+env:
+  browser: true
+  node: true
 install:
  - npm install eslint -g
 script:
