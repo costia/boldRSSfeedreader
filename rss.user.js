@@ -9,17 +9,17 @@
 // @grant        none
 // ==/UserScript==
 
-
+"use strict";
 
 function addGlobalStyle(css) {
     var head, style;
-    head = document.getElementsByTagName('head')[0];
+    head = document.getElementsByTagName("head")[0];
     if (!head) { return; }
-    style = document.createElement('style');
-    style.type = 'text/css';
+    style = document.createElement("style");
+    style.type = "text/css";
     style.innerHTML = css;
     head.appendChild(style);
 }
 
-addGlobalStyle('.entry_read .entry__summary__title {font-weight: normal;}');
-addGlobalStyle('.entry__summary__title {font-weight: bold;}');
+addGlobalStyle(".entry_read .entry__summary__title {font-weight: normal;}");
+addGlobalStyle(".entry__summary__title {font-weight: bold;}");
