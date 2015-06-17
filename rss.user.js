@@ -9,9 +9,10 @@
 // @grant        none
 // ==/UserScript==
 
-"use strict";
+
 
 function addGlobalStyle(css) {
+	"use strict";
     var head, style;
     head = document.getElementsByTagName("head")[0];
     if (!head) { return; }
