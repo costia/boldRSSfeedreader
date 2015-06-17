@@ -8,8 +8,7 @@
 // @downloadURL https://github.com/costia/boldRSSfeedreader/raw/master/rss.user.js
 // @grant        none
 // ==/UserScript==
-/*jslint browser:true */
-
+/*eslint-env node, browser */
 
 function addGlobalStyle(css) {
 	"use strict";
