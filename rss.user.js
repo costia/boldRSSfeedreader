@@ -2,7 +2,7 @@
 // @name           Rss
 // @description    Rss
 // @include        http://feedreader.com/*
-// @version        1.11
+// @version        1.12
 // @namespace https://github.com/costia/boldRSSfeedreader
 // @updateURL https://github.com/costia/boldRSSfeedreader/raw/master/rss.user.js
 // @downloadURL https://github.com/costia/boldRSSfeedreader/raw/master/rss.user.js
